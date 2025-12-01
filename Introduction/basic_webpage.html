@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie's Restaurant</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin: 0;
+        }
+
+        .menu {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 20px 40px;
+        }
+
+        .item {
+            background: white;
+            border-radius: 10px;
+            border: 2px solid #f0ad4e;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .item h3 {
+            margin: 10px 0 5px;
+        }
+
+        .item p {
+            margin: 0;
+            padding: 0 10px;
+            font-size: 14px;
+        }
+
+        .item strong {
+            display: block;
+            padding: 10px;
+            color: #d9534f;
+            font-size: 18px;
+        }
+
+        .contact {
+            padding: 40px;
+            background: #f7f7f7;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+        .contact-box {
+            background: white;
+            border-radius: 10px;
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #d9534f;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+        <h1>Foodie's Restaurant</h1>
+    </div>
+    <div class="menu">
+        <h2>Our Special Menu</h2>
+        <p>Fresh, hot, and delicious meals crafted just for you.</p>
+
+        <div class="menu-items">
+
+            <div class="item">
+                <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg" alt="Pizza">
+                <h3>🍕 Pizza</h3>
+                <p>Cheesy, hot, and delicious.</p>
+                <strong>₹199</strong>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Burger">
+                <h3>🍔 Burger</h3>
+                <p>Juicy and full of flavor.</p>
+                <strong>₹149</strong>
+            </div>
+
+            <div class="item">
+                <img src="https://unsplash.com/photos/wAwEmrUUV0w/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8d2hpdGUlMjBzYXVjZSUyMHBhc3RhfGVufDB8fHx8MTc2NDYxNDA4Mnww&force=true" alt="Pasta">
+                <h3>🍝 Pasta</h3>
+                <p>Creamy Italian delight.</p>
+                <strong>₹179</strong>
+            </div>
+
+            <div class="item">
+                <img src="https://unsplash.com/photos/YtLmmY2ok-4/download?force=true" alt="Dessert">
+                <h3>🍨 Dessert</h3>
+                <p>Sweet, creamy, perfect ending.</p>
+                <strong>₹129</strong>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Contact Us</h2>
+
+        <div class="contact-box">
+            <p>📞 Phone: <a href="tel:+918434515330">+918434515330</a></p>
+            <p>📧 Email: <a href="mailto:foodie@restaurant.com">foodie@restaurant.com</a></p>
+            <p>📍 Address: MG Road, Bengaluru, India</p>
+            <p><a href="https://www.google.com/maps" target="_blank">➡ View on Google Maps</a></p>
+        </div>
+    </div>
+    <footer>
+        © 2025 Foodie's Restaurant | All Rights Reserved
+    </footer>
+</body>
+</html>
