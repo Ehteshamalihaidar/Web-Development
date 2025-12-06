@@ -1,0 +1,743 @@
+/* ===== NAVBAR ===== */
+.custom-nav {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 12px 0;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+.nav-icons .nav-icon {
+    color: white;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.nav-icons .nav-icon:hover {
+    color: orange;
+}
+
+
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+    height: 100vh;
+    background-image: url("https://themewagon.github.io/fruitkha/assets/img/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sub-heading {
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: orange;
+}
+
+.main-heading {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+
+/* ===== FEATURE SECTION ===== */
+.feature-box {
+    padding: 20px;
+}
+
+.feature-icon {
+    font-size: 45px;
+    color: orange;
+    border: 2px dotted orange;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+
+/* ===== PRODUCTS SECTION ===== */
+.product-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.1);
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.orange-btn {
+    background: orange;
+    color: white !important;
+    padding: 10px 22px;
+    border-radius: 50px;
+}
+
+
+
+/* ===== DEAL SECTION ===== */
+.timer-box {
+    border: 2px solid orange;
+    padding: 10px;
+    width: 80px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.timer-box span {
+    font-size: 12px;
+    color: #666;
+}
+
+
+
+/* ===== ABOUT SECTION ===== */
+.orange {
+    color: orange;
+}
+.price-box {
+    position: absolute;
+    left: 15%;
+    top: -30px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: rgba(242, 129, 35, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-price {
+    text-align: center;
+    color: #000; /* black text */
+    font-weight: bold;
+}
+
+.inner-price strong {
+    font-size: 26px;
+    display: block;
+    line-height: 1;
+}
+/* ABOUT SECTION IMAGE BACKGROUND */
+.abt-bg {
+    background-image: url("https://themewagon.github.io/fruitkha/assets/img/abt.jpg"); /* your cover image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;              /* adjust height if needed */
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* DARK OVERLAY */
+.abt-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45); /* dark overlay */
+    border-radius: 15px;
+}
+
+/* PLAY BUTTON */
+.video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    z-index: 2;
+    transition: 0.3s ease;
+}
+
+.video-play-btn i {
+    font-size: 45px;
+    color: #000;
+}
+
+/* Hover Animation */
+.video-play-btn:hover {
+    background: #ff9c1b;
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* Shop Banner Styles */
+.shop-banner {
+    position: relative;
+    background-color: #f5f5f5;
+    background-image: url('https://themewagon.github.io/fruitkha/assets/img/1.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 80px 0px 85px;
+    overflow: hidden;
+}
+
+.shop-banner h3 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #051922;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.orange-text {
+    color: #F28123;
+}
+
+.sale-percent {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #F28123;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sale-percent span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #051922;
+    line-height: 1.4;
+}
+
+.cart-btn {
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 12px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid #F28123;
+}
+
+.cart-btn:hover {
+    background-color: #051922;
+    border-color: #051922;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .shop-banner {
+        padding: 60px 0px 65px;
+    }
+
+    .shop-banner h3 {
+        font-size: 2.5rem;
+    }
+
+    .sale-percent {
+        font-size: 3.5rem;
+    }
+
+    .sale-percent span {
+        font-size: 1.2rem;
+    }
+
+    .cart-btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .shop-banner h3 {
+        font-size: 2rem;
+    }
+
+    .sale-percent {
+        font-size: 2.5rem;
+    }
+
+    .sale-percent span {
+        font-size: 1rem;
+    }
+}
+
+
+/* Background */
+.logo-carousel-section {
+    background-color: #fafafa; /* same as screenshot */
+    padding: 60px 0;
+}
+
+/* Container holding logos */
+.logo-carousel-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;            /* spacing between logos */
+    padding: 20px 0;
+}
+
+/* Individual logo item */
+.single-logo-item {
+    flex: 1 1 20%;        /* show 4 logos per row */
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.single-logo-item img {
+    max-width: 150px;     /* similar size to screenshot */
+    height: auto;
+}
+
+/* Hover effect like Fruitkha */
+.single-logo-item:hover {
+    opacity: 1;
+}
+
+
+/* Footer Area Styles */
+.footer-area {
+    background-color: #051922;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.footer-box {
+    margin-bottom: 30px;
+}
+
+.widget-title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.widget-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #F28123;
+}
+
+.footer-box p {
+    color: #b8c4ce;
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-box ul li {
+    color: #b8c4ce;
+    margin-bottom: 12px;
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
+
+.footer-box.pages ul li a {
+    color: #b8c4ce;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+}
+
+.footer-box.pages ul li a::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+    color: #F28123;
+}
+
+.footer-box.pages ul li a:hover {
+    color: #F28123;
+    padding-left: 25px;
+}
+
+.footer-box.subscribe form {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer-box.subscribe input {
+    width: 100%;
+    padding: 15px 60px 15px 20px;
+    background-color: #0d3544;
+    border: 1px solid #1a4a5c;
+    color: #b8c4ce;
+    border-radius: 5px;
+    font-size: 0.95rem;
+}
+
+.footer-box.subscribe input:focus {
+    outline: none;
+    border-color: #F28123;
+    background-color: #0d3544;
+}
+
+.footer-box.subscribe input::placeholder {
+    color: #6b8794;
+}
+
+.footer-box.subscribe button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #F28123;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer-box.subscribe button:hover {
+    background-color: #e07420;
+}
+
+.footer-box.subscribe button i {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+/* Copyright Section */
+.copyright {
+    background-color: #081f28;
+    padding: 25px 0;
+    border-top: 1px solid #1a4a5c;
+}
+
+.copyright p {
+    color: #b8c4ce;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.copyright a {
+    color: #F28123;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.social-icons ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #0d3544;
+    border-radius: 50%;
+    color: #b8c4ce;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.social-icons ul li a:hover {
+    background-color: #F28123;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-area {
+        padding: 50px 0;
+    }
+
+    .widget-title {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+
+    .social-icons ul {
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .text-right {
+        text-align: left !important;
+    }
+}
+
+/* About html */
+/* Breadcrumb / Page Header Section */
+.breadcrumb-section {
+    position: relative;
+    padding: 160px 0;
+    text-align: center;
+    background-color: #2f414a;
+    margin-top: 0 !important; /* FIXED */
+}
+
+
+/* Overlay (optional fade effect) */
+.breadcrumb-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #07212e;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.breadcrumb-text {
+    position: relative;
+    z-index: 2; /* ensures text appears above overlay */
+}
+
+.breadcrumb-text .top-subtitle {
+    color: #f7931e; /* orange */
+    font-size: 18px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-text h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+/* WHY FRUITKHA SECTION */
+.feature-section {
+    padding: 120px 0;
+}
+
+/* Right Image Box Style */
+.feature-image-box img {
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Icons inside dotted circle */
+.list-icon {
+    width: 80px;
+    height: 80px;
+    border: 2px dotted #f39c12;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+}
+
+.list-icon i {
+    font-size: 28px;
+    color: #f39c12;
+}
+
+.featured-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.featured-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.featured-text p {
+    color: #556270;
+    font-size: 16px;
+    line-height: 26px;
+}
+.team-card {
+    text-align: center;
+}
+
+.team-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.team-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Social icons on the image */
+.social-icons-overlay {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons-overlay li a {
+    width: 40px;
+    height: 40px;
+    background: #f39c12;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-icons-overlay li a:hover {
+    background: #333;
+}
+
+/* Title under image */
+.team-card h4 {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.team-card .role {
+    display: block;
+    color: gray;
+    font-size: 15px;
+}
+/* contact html */
+/* Contact Section */
+.contact-input {
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.contact-input:focus {
+    outline: none;
+    border-color: #f39c12;
+    box-shadow: none;
+}
+
+.submit-btn {
+    background: #f39c12;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.submit-btn:hover {
+    background: #d98305;
+    color: white;
+}
+
+.info-box {
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.info-title {
+    font-weight: 700;
+}
+
+.text-orange {
+    color: #f39c12;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+}
+/* Top dark blue title section */
+.find-location-section {
+    background: #0f1e31;
+    padding: 60px 0;
+}
+
+.location-title {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.location-title i {
+    color: #f6891f;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+/* Map spacing */
+.map-section iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
